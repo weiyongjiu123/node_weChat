@@ -3,7 +3,11 @@
 
 有关本文件夹下的代码说明
 
-remind/crontab 是linux任务时间表 app/weChatPublic.sql 是后台需要的mysql的数据库表
+remind文件夹下的代码是做课表提醒<br>
+app文件夹下的代码是公众号的后台
+
+remind/crontab 是linux任务时间表 <br>
+app/weChatPublic.sql 是后台需要的mysql的数据库表
 
 另外还需要设置公众号菜单按钮，按钮数据如下
 
