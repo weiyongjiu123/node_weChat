@@ -1,0 +1,10 @@
+30 8 * * * node /root/nodeApp/remind/index.js beforeRemind 1  > /dev/null 2>&1
+10 10 * * * node /root/nodeApp/remind/index.js beforeRemind 2  > /dev/null 2>&1
+0 12 * * * node /root/nodeApp/remind/index.js beforeRemind 3  > /dev/null 2>&1
+30 13 * * * node /root/nodeApp/remind/index.js beforeRemind 4  > /dev/null 2>&1
+0 15 * * * node /root/nodeApp/remind/index.js beforeRemind 5  > /dev/null 2>&1
+30 16 * * * node /root/nodeApp/remind/index.js beforeRemind 6  > /dev/null 2>&1
+30 18 * * * node /root/nodeApp/remind/index.js beforeRemind 7  > /dev/null 2>&1
+0 20 * * * node /root/nodeApp/remind/index.js beforeRemind 8  > /dev/null 2>&1
+30 0 * * * node /root/nodeApp/remind/index.js dayRemind  > /dev/null 2>&1
+30 20 * * * node /root/nodeApp/remind/index.js setSchedule  > /dev/null 2>&1
